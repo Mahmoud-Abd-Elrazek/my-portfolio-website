@@ -375,8 +375,8 @@ span {
 }
 
 .about .about-img {
-   width: 30vw;
-   height: 30vw;
+   width: 34vw;
+   height: 34vw;
    border: 4px solid var(--bg-color);
    outline: 4px solid var(--main-color);
    text-align: center;

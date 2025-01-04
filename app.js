@@ -204,21 +204,21 @@ const users = [
       recusandae enim, nisi quisquam! Ratione qui aliquid ullam.` 
    },
 ];
-const  testimonailContainer = document.querySelector(`.cards`) ; 
+// const  testimonailContainer = document.querySelector(`.cards`) ; 
 
-let testimonailContent = users.map(card => {
-   return `
-   <div class="testinomail-card">
-         <div class="testinomail-img">
-            <img src="${card.img}" >
-         </div>
-         <h2>${card.name}</h2>
-         <p> ${card.disc}</p>
-   </div>
-   `
-}).join("");
-testimonailContainer.innerHTML = testimonailContent;
-console.log(testimonailContainer);
+// let testimonailContent = users.map(card => {
+//    return `
+//    <div class="testinomail-card">
+//          <div class="testinomail-img">
+//             <img src="${card.img}" >
+//          </div>
+//          <h2>${card.name}</h2>
+//          <p> ${card.disc}</p>
+//    </div>
+//    `
+// }).join("");
+// testimonailContainer.innerHTML = testimonailContent;
+// console.log(testimonailContainer);
 /* End Start slide  */
 
 //========< Dark Light Mode >==========
