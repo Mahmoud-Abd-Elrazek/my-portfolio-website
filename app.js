@@ -95,6 +95,7 @@ const portfolioArray = [
       Modern UI Design. <br>
       Responsive Layout<br>
       Interactive Components.`,
+      link:'https://mahmoud-abd-elrazek.github.io/Edu_Community/postPedai/index.html',
    },
    {
       img:"./images/myprofile.png",
