@@ -40,7 +40,7 @@ window.onscroll = _ => {
 // Services array 
 const servicse = [
    {
-      courseName: `Web Development`, 
+      courseName: `Non-linear data structures`, 
       courseLink: `https://youtube.com/playlist?list=PL2xsPNbpw3ogfsrSAKO0mQI-DAU5bF6iq&si=MJcT0ZVSyhPBDUc-`, 
       courseImage: `images/ds1.jpeg`,
       courseDiscription:`This course provides a comprehensive introduction to essential structures like <span>trees</span>, <span>graphs</span>, <span>heaps</span> etc..(recording).Designed for any one need to study these topics.implementations in C++.`,
