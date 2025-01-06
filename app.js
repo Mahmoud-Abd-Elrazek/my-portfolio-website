@@ -46,7 +46,7 @@ const servicse = [
       courseDiscription:`This course provides a comprehensive introduction to essential structures like <span>trees</span>, <span>graphs</span>, <span>heaps</span> etc..(recording).Designed for any one need to study these topics.implementations in C++.`,
    },
    {
-      courseName: `All About Array i C/C++`, 
+      courseName: `All About Array C/C++`, 
       courseLink: `https://youtube.com/playlist?list=PL2xsPNbpw3ojCuRnWf_GC-qH3-qHQsA35&si=Yw2c2hWlw4wMIkOM`, 
       courseImage: `images/ar2.jpeg`,
       courseDiscription:`Everything you want to know about the array, and the relationship with pointers. <br>
@@ -56,7 +56,7 @@ const servicse = [
    },
    {
       courseName: `Pointers and memory management in C/C++`, 
-      courseLink: `https://youtube.com/playlist?list=PL2xsPNbpw3ogfsrSAKO0mQI-DAU5bF6iq&si=MJcT0ZVSyhPBDUc-`, 
+      courseLink: `https://youtube.com/playlist?list=PL2xsPNbpw3ohkK6kmoQEnGSbtHODX-jeE&si=tv_SNY_OOt63eHUu`, 
       courseImage: `images/ptr.jpeg`,
       courseDiscription:`course dives deep into the fundamentals of pointers and efficient memory handling in C/C++. It covers concepts like pointer arithmetic, dynamic memory allocation, memory leaks.. ,and best practices for memory management`,
    },
