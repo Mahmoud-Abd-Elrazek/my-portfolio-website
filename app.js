@@ -101,7 +101,7 @@ const portfolioArray = [
       img:"./images/myprofile.png",
       name:"online portfolio",
       discription:"Welcome to my online portfolio! I'm Mhamoud Abedelrazek,",
-      link:"https://mahmoud-abd-elrazek.github.io/Dental-Clinic-Frontend/Home%20page/home.html",
+      link:"https://mahmoud-abd-elrazek.github.io/my-portfolio-website/",
    },
    {
       img:"./images/elharthy2.png",
