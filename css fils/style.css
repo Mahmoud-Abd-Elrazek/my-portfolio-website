@@ -427,7 +427,8 @@ span {
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   gap: 2rem;
+   gap: 4rem;
+   /* height: 540px; */
 }
 
 .services .services-container .services-box {
@@ -439,6 +440,7 @@ span {
    border-top: 0.5rem solid var(--main-color);
    border-bottom: 0.5rem solid var(--main-color);
    transition: 0.5s ease;
+   height: 550px;
 }
 
 .services .services-container .services-box:hover{
@@ -459,6 +461,23 @@ span {
    transition: 0.5s ease;
 }
 
+.services-box {
+   position: relative;
+   overflow: hidden;
+}
+.services-box > a.btn { 
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   text-align: center;
+   width: 100%;
+   border-radius: 0;
+   border: none;
+}
+.services-box.visible {
+   opacity: 1;
+   transform: translateX(0);
+ }
 .services-container a > h3 {
    color: var(--text-color); 
 }
@@ -565,6 +584,30 @@ span {
    width:2rem;
    fill: var(--main-color);
 }
+
+.portfolio-box {
+   position: relative;
+   margin-bottom: 40px;
+   opacity: 0;
+   transform: translateX(-50px);
+   transition: all 0.6s ease-in-out;
+ }
+.portfolio-box.visible {
+   opacity: 1;
+   transform: translateX(0);
+ }
+
+.services-box {
+   position: relative;
+   margin-bottom: 40px;
+   opacity: 0;
+   transform: translateX(-50px);
+   transition: all 0.6s ease-in-out;
+ }
+.services-box.visible {
+   opacity: 1;
+   transform: translateX(0);
+ }
 
 /* =================================== */
 /* testimonial */
