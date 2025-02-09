@@ -120,6 +120,18 @@ const portfolioArray = [
       name:"Programming Problems",
       discription:"Created by a passionate computer science student, features programming problem solutions organized by topic",
       link:"https://github.com/Mahmoud-Abd-Elrazek/Programming-Problems",
+   },
+   {
+      img:"./images/lib.jpg",
+      name:"Online Library System",
+      discription:"Online Library System ( OOP Project using CPP)",
+      link:"https://github.com/Mahmoud-Abd-Elrazek/Online-Library-System",
+   },
+   {
+      img:"./images/des.jpg",
+      name:"Random Designs (front-end)",
+      discription:"You can check my repo link below.",
+      link:"https://github.com/Mahmoud-Abd-Elrazek/web-projects",
    }
 
 ];
